@@ -1,0 +1,11 @@
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\bin\Debug\NotepaadWinform.exe.config
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\bin\Debug\NotepaadWinform.exe
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\bin\Debug\NotepaadWinform.pdb
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Properties.Resources.resources
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.csproj.GenerateResource.Cache
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.exe
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.pdb
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Notepad.resources
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Info.resources
