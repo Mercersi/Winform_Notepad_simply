@@ -9,3 +9,5 @@ C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWin
 C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Notepad.resources
 C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.csprojAssemblyReference.cache
 C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Info.resources
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\notepad.Find.resources
+C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Help.resources

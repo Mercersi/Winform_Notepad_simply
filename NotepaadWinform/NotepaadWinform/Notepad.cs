@@ -11,8 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
-
-
+using notepad;
 
 namespace NotepaadWinform
 {
@@ -201,10 +200,11 @@ namespace NotepaadWinform
 
         private void findToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Find f = new Find(RTB_Main);
+            f.Show();
         }
 
-      
+       
 
         private void wordWrapToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -227,13 +227,14 @@ namespace NotepaadWinform
             if (fontDialog1.ShowDialog() == DialogResult.OK)
             {
                 RTB_Main.Font = RTB_Main.Font = new Font(fontDialog1.Font, fontDialog1.Font.Style);
-                RTB_Main.ForeColor = fontDialog1.Color;
+                
             }
         }
 
         private void newWindowToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Notepad f = new Notepad();
+            f.ShowDialog();
         }
 
         private void timeDateToolStripMenuItem_Click(object sender, EventArgs e)
@@ -249,9 +250,76 @@ namespace NotepaadWinform
 
         private void zoomInToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string fontz = Convert.ToString(RTB_Main.SelectionFont.Name);
+            RTB_Main.SelectionFont = new Font(RTB_Main.SelectionFont.FontFamily, 12.0F);
+
+
+        }
+
+        private void colorTextToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ColorDialog cl = new ColorDialog();
+            if (cl.ShowDialog() == DialogResult.OK)
+            {
+                RTB_Main.ForeColor = cl.Color;
+            }
+        }
+
+        private void colorBackgroundToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog cl = new ColorDialog();
+            if (cl.ShowDialog() == DialogResult.OK)
+            {
+                RTB_Main.BackColor = cl.Color;
+            }
+        }
+
+        private void colorSelectTextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog cl = new ColorDialog();
             
-            Font f = new Font(fontz, );
+            if (cl.ShowDialog() == DialogResult.OK)
+            {
+                RTB_Main.SelectionColor = cl.Color;
+            }
+        }
+
+        private void colorSelectBackgroundToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ColorDialog cl = new ColorDialog();
+
+            if (cl.ShowDialog() == DialogResult.OK)
+            {
+                RTB_Main.SelectionBackColor = cl.Color;
+            }
+        }
+
+        private void searchWithGoogleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string search = RTB_Main.SelectedText;
+            System.Diagnostics.Process.Start("https://www.google.com/search?q=" + search);
+        }
+
+        private void findNextToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Find f = new Find(RTB_Main);
+            f.Show();
+        }
+
+        private void replaceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Find f = new Find(RTB_Main);
+            f.Show();
+        }
+
+        private void selectAllToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RTB_Main.SelectAll();
+        }
+
+        private void viewHelpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Help h = new Help();
+            h.Show();
         }
     }    
 }
