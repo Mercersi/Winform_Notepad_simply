@@ -34,6 +34,9 @@
     Find Next
     Find Previous (Disable)
     Replace
+    ____________
+    Selecet All
+    Time/Date
     
   # Format
   
