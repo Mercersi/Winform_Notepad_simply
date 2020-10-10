@@ -4,9 +4,9 @@
 
 ## Very Simple C# Notepad
 
-# Function:
+### Function:
 
-  # File
+  ### File
   
     New
     New window
@@ -19,7 +19,7 @@
     ____________
     Exit
     
-  # Edit
+  ### Edit
   
     Undo
     ____________
@@ -38,12 +38,12 @@
     Selecet All
     Time/Date
     
-  # Format
+  ### Format
   
     Word Wrap
     Font
     Color
     
-  # View (Disable)
+  ### View (Disable)
   
-  # About
+  ### About
