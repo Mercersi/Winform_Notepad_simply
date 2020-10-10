@@ -2,11 +2,11 @@
 
 [![Mercersi](https://github.com/Mercersi/Winform_Notepad_simply/blob/master/.Capture/Function%20Caption.png)]()
 
-#Very Simple C# Notepad
+## Very Simple C# Notepad
 
-##Function:
+# Function:
 
-  #File
+  # File
   
     New
     New window
@@ -19,7 +19,7 @@
     ____________
     Exit
     
-  #Edit
+  # Edit
   
     Undo
     ____________
@@ -35,12 +35,12 @@
     Find Previous (Disable)
     Replace
     
-  #Format
+  # Format
   
     Word Wrap
     Font
     Color
     
-  #View (Disable)
+  # View (Disable)
   
-  #About
+  # About
