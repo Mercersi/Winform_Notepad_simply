@@ -5,7 +5,9 @@
 #Very Simple C# Notepad
 
 ##Function:
+
   #File
+  
     New
     New window
     Open
@@ -16,7 +18,9 @@
     Print
     ____________
     Exit
+    
   #Edit
+  
     Undo
     ____________
     Cut
@@ -24,15 +28,19 @@
     Paste
     Delete
     ____________
-   Search with Bing...
-   Search With Google...
-   Find
-   Find Next
-   Find Previous (Disable)
-   Replace
+    Search with Bing...
+    Search With Google...
+    Find
+    Find Next
+    Find Previous (Disable)
+    Replace
+    
   #Format
+  
     Word Wrap
     Font
     Color
+    
   #View (Disable)
+  
   #About
