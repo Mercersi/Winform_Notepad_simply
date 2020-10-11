@@ -11,3 +11,16 @@ C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWin
 C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Info.resources
 C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\notepad.Find.resources
 C:\Users\Dell\source\repos\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Help.resources
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\bin\Debug\NotepaadWinform.exe.config
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\bin\Debug\NotepaadWinform.exe
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\bin\Debug\NotepaadWinform.pdb
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.csprojAssemblyReference.cache
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\notepad.Find.resources
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Help.resources
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Info.resources
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Notepad.resources
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.Properties.Resources.resources
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.csproj.GenerateResource.cache
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.csproj.CoreCompileInputs.cache
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.exe
+E:\Winform_Notepad_simply\NotepaadWinform\NotepaadWinform\obj\Debug\NotepaadWinform.pdb

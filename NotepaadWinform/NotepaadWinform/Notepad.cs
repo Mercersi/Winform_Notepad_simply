@@ -18,7 +18,7 @@ namespace NotepaadWinform
     public partial class Notepad : System.Windows.Forms.Form
     {
         String path = String.Empty;
-
+        float zoom_df=0;
 
 
         public Notepad()
@@ -248,12 +248,7 @@ namespace NotepaadWinform
             about.Show();
         }
 
-        private void zoomInToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            RTB_Main.SelectionFont = new Font(RTB_Main.SelectionFont.FontFamily, 12.0F);
-
-
-        }
+        
 
         private void colorTextToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -320,6 +315,34 @@ namespace NotepaadWinform
         {
             Help h = new Help();
             h.Show();
+        }
+
+        private void zoomInToolStripMenuItem_Click(object sender, EventArgs e)
+        {   
+            if (zoom_df ==0) zoom_df = RTB_Main.ZoomFactor;
+            RTB_Main.AutoWordSelection = true;
+            RTB_Main.ZoomFactor = RTB_Main.ZoomFactor + 1.0f;
+        }
+
+        private void zoomOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (zoom_df == 0) zoom_df = RTB_Main.ZoomFactor;
+                RTB_Main.AutoWordSelection = true;
+                RTB_Main.ZoomFactor = RTB_Main.ZoomFactor - 1.0f;
+            }
+            catch{ }
+        }
+
+        private void resToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                RTB_Main.AutoWordSelection = true;
+                RTB_Main.ZoomFactor = zoom_df;
+            }
+            catch { }
         }
     }    
 }

@@ -52,16 +52,16 @@
             // txb_Find
             // 
             this.txb_Find.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_Find.Location = new System.Drawing.Point(75, 39);
+            this.txb_Find.Location = new System.Drawing.Point(140, 39);
             this.txb_Find.Name = "txb_Find";
-            this.txb_Find.Size = new System.Drawing.Size(162, 26);
+            this.txb_Find.Size = new System.Drawing.Size(224, 26);
             this.txb_Find.TabIndex = 1;
             // 
             // btn_Find
             // 
             this.btn_Find.Cursor = System.Windows.Forms.Cursors.Default;
             this.btn_Find.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Find.Location = new System.Drawing.Point(273, 15);
+            this.btn_Find.Location = new System.Drawing.Point(386, 12);
             this.btn_Find.Name = "btn_Find";
             this.btn_Find.Size = new System.Drawing.Size(105, 32);
             this.btn_Find.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             this.btn_Replace.Enabled = false;
             this.btn_Replace.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Replace.Location = new System.Drawing.Point(273, 91);
+            this.btn_Replace.Location = new System.Drawing.Point(386, 88);
             this.btn_Replace.Name = "btn_Replace";
             this.btn_Replace.Size = new System.Drawing.Size(105, 32);
             this.btn_Replace.TabIndex = 5;
@@ -84,9 +84,9 @@
             // txb_Replace
             // 
             this.txb_Replace.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txb_Replace.Location = new System.Drawing.Point(75, 71);
+            this.txb_Replace.Location = new System.Drawing.Point(140, 71);
             this.txb_Replace.Name = "txb_Replace";
-            this.txb_Replace.Size = new System.Drawing.Size(162, 26);
+            this.txb_Replace.Size = new System.Drawing.Size(224, 26);
             this.txb_Replace.TabIndex = 4;
             // 
             // label2
@@ -95,14 +95,14 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(16, 71);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 24);
+            this.label2.Size = new System.Drawing.Size(118, 24);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Find:";
+            this.label2.Text = "Replace with";
             // 
             // btn_Cancel
             // 
             this.btn_Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Cancel.Location = new System.Drawing.Point(273, 167);
+            this.btn_Cancel.Location = new System.Drawing.Point(386, 164);
             this.btn_Cancel.Name = "btn_Cancel";
             this.btn_Cancel.Size = new System.Drawing.Size(105, 32);
             this.btn_Cancel.TabIndex = 7;
@@ -113,7 +113,7 @@
             // btn_ReplaceAll
             // 
             this.btn_ReplaceAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ReplaceAll.Location = new System.Drawing.Point(273, 129);
+            this.btn_ReplaceAll.Location = new System.Drawing.Point(386, 126);
             this.btn_ReplaceAll.Name = "btn_ReplaceAll";
             this.btn_ReplaceAll.Size = new System.Drawing.Size(105, 32);
             this.btn_ReplaceAll.TabIndex = 6;
@@ -125,7 +125,7 @@
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Default;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(273, 53);
+            this.button1.Location = new System.Drawing.Point(386, 50);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(105, 32);
             this.button1.TabIndex = 8;
@@ -137,7 +137,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(412, 211);
+            this.ClientSize = new System.Drawing.Size(513, 211);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btn_Cancel);
             this.Controls.Add(this.btn_ReplaceAll);
@@ -147,7 +147,7 @@
             this.Controls.Add(this.btn_Find);
             this.Controls.Add(this.txb_Find);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Find";
             this.Text = "Find";
             this.ResumeLayout(false);

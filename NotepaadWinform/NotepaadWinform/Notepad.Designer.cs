@@ -57,9 +57,7 @@ namespace NotepaadWinform
             this.searchWithGoogleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findNextToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.findPreviousToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.replaceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gotoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripSeparator();
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timeDateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -214,9 +212,7 @@ namespace NotepaadWinform
             this.searchWithGoogleToolStripMenuItem,
             this.findToolStripMenuItem,
             this.findNextToolStripMenuItem,
-            this.findPreviousToolStripMenuItem,
             this.replaceToolStripMenuItem,
-            this.gotoToolStripMenuItem,
             this.toolStripMenuItem5,
             this.selectAllToolStripMenuItem,
             this.timeDateToolStripMenuItem});
@@ -307,14 +303,6 @@ namespace NotepaadWinform
             this.findNextToolStripMenuItem.Text = "Find Next";
             this.findNextToolStripMenuItem.Click += new System.EventHandler(this.findNextToolStripMenuItem_Click);
             // 
-            // findPreviousToolStripMenuItem
-            // 
-            this.findPreviousToolStripMenuItem.Enabled = false;
-            this.findPreviousToolStripMenuItem.Name = "findPreviousToolStripMenuItem";
-            this.findPreviousToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Shift | System.Windows.Forms.Keys.F3)));
-            this.findPreviousToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.findPreviousToolStripMenuItem.Text = "Find Previous";
-            // 
             // replaceToolStripMenuItem
             // 
             this.replaceToolStripMenuItem.Name = "replaceToolStripMenuItem";
@@ -322,13 +310,6 @@ namespace NotepaadWinform
             this.replaceToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
             this.replaceToolStripMenuItem.Text = "Replace...";
             this.replaceToolStripMenuItem.Click += new System.EventHandler(this.replaceToolStripMenuItem_Click);
-            // 
-            // gotoToolStripMenuItem
-            // 
-            this.gotoToolStripMenuItem.Name = "gotoToolStripMenuItem";
-            this.gotoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
-            this.gotoToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.gotoToolStripMenuItem.Text = "Goto";
             // 
             // toolStripMenuItem5
             // 
@@ -369,14 +350,14 @@ namespace NotepaadWinform
             this.wordWrapToolStripMenuItem.Checked = true;
             this.wordWrapToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.wordWrapToolStripMenuItem.Name = "wordWrapToolStripMenuItem";
-            this.wordWrapToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.wordWrapToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.wordWrapToolStripMenuItem.Text = "Word Wrap";
             this.wordWrapToolStripMenuItem.Click += new System.EventHandler(this.wordWrapToolStripMenuItem_Click);
             // 
             // fontToolStripMenuItem
             // 
             this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            this.fontToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.fontToolStripMenuItem.Text = "Font...";
             this.fontToolStripMenuItem.Click += new System.EventHandler(this.fontToolStripMenuItem_Click);
             // 
@@ -388,7 +369,7 @@ namespace NotepaadWinform
             this.colorSelectTextToolStripMenuItem,
             this.colorSelectBackgroundToolStripMenuItem});
             this.colorTextToolStripMenuItem.Name = "colorTextToolStripMenuItem";
-            this.colorTextToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.colorTextToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.colorTextToolStripMenuItem.Text = "Color";
             // 
             // colorTextToolStripMenuItem1
@@ -424,7 +405,6 @@ namespace NotepaadWinform
             this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.zoomToolStripMenuItem,
             this.statusBarToolStripMenuItem});
-            this.viewToolStripMenuItem.Enabled = false;
             this.viewToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
             this.viewToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
@@ -452,15 +432,18 @@ namespace NotepaadWinform
             this.zoomOutToolStripMenuItem.Name = "zoomOutToolStripMenuItem";
             this.zoomOutToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.zoomOutToolStripMenuItem.Text = "Zoom Out";
+            this.zoomOutToolStripMenuItem.Click += new System.EventHandler(this.zoomOutToolStripMenuItem_Click);
             // 
             // resToolStripMenuItem
             // 
             this.resToolStripMenuItem.Name = "resToolStripMenuItem";
             this.resToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.resToolStripMenuItem.Text = "Restore Default Zoom";
+            this.resToolStripMenuItem.Click += new System.EventHandler(this.resToolStripMenuItem_Click);
             // 
             // statusBarToolStripMenuItem
             // 
+            this.statusBarToolStripMenuItem.Enabled = false;
             this.statusBarToolStripMenuItem.Name = "statusBarToolStripMenuItem";
             this.statusBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.statusBarToolStripMenuItem.Text = "Status Bar";
@@ -572,9 +555,7 @@ namespace NotepaadWinform
         private System.Windows.Forms.ToolStripMenuItem searchWithBingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem findToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem findNextToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem findPreviousToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem replaceToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gotoToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem5;
         private System.Windows.Forms.ToolStripMenuItem selectAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem timeDateToolStripMenuItem;
