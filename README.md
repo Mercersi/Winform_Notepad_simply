@@ -44,6 +44,8 @@
     Font
     Color
     
-  ### View (Disable)
+  ### View 
+  
+    Zoom
   
   ### About
